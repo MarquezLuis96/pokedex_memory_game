@@ -1,0 +1,59 @@
+:root {
+    /*Colors*/
+    --color-light-red: #FF0000;
+    --color-dark-red: #CC0000;
+    --color-dark-blue: #3B4CCA;
+    --color-light-yellow: #FFDE00;
+    --color-dark-yellow:#B3A125;
+    --color-pure-white: #FFFFFF;
+    --color-pure-black: #000000;
+    --color-light-black: #444444;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-dark-blue);
+}
+
+.box {
+    border: 1px dashed white;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+}
+
+.time-section {
+    height: 100%;
+    width: 20%;
+}
+
+.game-section {
+    height: 100%;
+    width: 60%;
+}
+
+.pokedex-section {
+    height: 100%;
+    width: 20%;
+}
+
+footer {
+    height: 10vh;
+}
